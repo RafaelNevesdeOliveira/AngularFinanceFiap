@@ -1,0 +1,18 @@
+<div class="card-saldo">
+  <div class="card-saldo__left">
+    <p> {{ dataAtual | date: 'dd/MM/yyyy' }}</p>
+  </div>
+  <div class="card-saldo__right">
+    <p>Saldo</p>
+    <button class="toggle-saldo" (click)="toggleMostrarSaldo()">
+      <mat-icon>{{ mostrarSaldo ? 'visibility' : 'visibility_off' }}</mat-icon>
+    </button>
+    <p>Conta Corrente</p>
+    <p *ngIf="mostrarSaldo; else saldoOculto">
+      {{ saldo$ | async | currency: 'BRL'}}
+    </p>
+    <ng-template #saldoOculto>
+      <p>***</p>
+    </ng-template>
+  </div>
+</div>

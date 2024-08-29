@@ -1,0 +1,436 @@
+{
+  "finance": [
+    {
+      "id": "1",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1000,
+      "dataMovimentacao": "2024-08-01"
+    },
+    {
+      "id": "2",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 200,
+      "dataMovimentacao": "2024-08-02"
+    },
+    {
+      "id": "3",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1500,
+      "dataMovimentacao": "2024-08-03"
+    },
+    {
+      "id": "4",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-04"
+    },
+    {
+      "id": "5",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1200,
+      "dataMovimentacao": "2024-08-05"
+    },
+    {
+      "id": "6",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-08-06"
+    },
+    {
+      "id": "7",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1300,
+      "dataMovimentacao": "2024-08-07"
+    },
+    {
+      "id": "8",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 300,
+      "dataMovimentacao": "2024-08-08"
+    },
+    {
+      "id": "9",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1600,
+      "dataMovimentacao": "2024-08-09"
+    },
+    {
+      "id": "10",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 700,
+      "dataMovimentacao": "2024-08-10"
+    },
+    {
+      "id": "11",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1800,
+      "dataMovimentacao": "2024-08-11"
+    },
+    {
+      "id": "12",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 600,
+      "dataMovimentacao": "2024-08-12"
+    },
+    {
+      "id": "13",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1100,
+      "dataMovimentacao": "2024-08-13"
+    },
+    {
+      "id": "14",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 900,
+      "dataMovimentacao": "2024-08-14"
+    },
+    {
+      "id": "15",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1700,
+      "dataMovimentacao": "2024-08-15"
+    },
+    {
+      "id": "16",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 800,
+      "dataMovimentacao": "2024-08-16"
+    },
+    {
+      "id": "17",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1400,
+      "dataMovimentacao": "2024-08-17"
+    },
+    {
+      "id": "18",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-18"
+    },
+    {
+      "id": "19",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 2000,
+      "dataMovimentacao": "2024-08-19"
+    },
+    {
+      "id": "20",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 700,
+      "dataMovimentacao": "2024-08-20"
+    },
+    {
+      "id": "21",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1500,
+      "dataMovimentacao": "2024-08-21"
+    },
+    {
+      "id": "22",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 300,
+      "dataMovimentacao": "2024-08-22"
+    },
+    {
+      "id": "23",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1000,
+      "dataMovimentacao": "2024-08-23"
+    },
+    {
+      "id": "24",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-08-24"
+    },
+    {
+      "id": "25",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1300,
+      "dataMovimentacao": "2024-08-25"
+    },
+    {
+      "id": "26",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-26"
+    },
+    {
+      "id": "27",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1800,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "28",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 900,
+      "dataMovimentacao": "2024-08-28"
+    },
+    {
+      "id": "29",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1600,
+      "dataMovimentacao": "2024-08-29"
+    },
+    {
+      "id": "30",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 800,
+      "dataMovimentacao": "2024-08-30"
+    },
+    {
+      "id": "31",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1200,
+      "dataMovimentacao": "2024-08-31"
+    },
+    {
+      "id": "32",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 300,
+      "dataMovimentacao": "2024-09-01"
+    },
+    {
+      "id": "33",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1500,
+      "dataMovimentacao": "2024-09-02"
+    },
+    {
+      "id": "34",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-09-03"
+    },
+    {
+      "id": "35",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1700,
+      "dataMovimentacao": "2024-09-04"
+    },
+    {
+      "id": "36",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 700,
+      "dataMovimentacao": "2024-09-05"
+    },
+    {
+      "id": "37",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1800,
+      "dataMovimentacao": "2024-09-06"
+    },
+    {
+      "id": "38",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 600,
+      "dataMovimentacao": "2024-09-07"
+    },
+    {
+      "id": "39",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 2000,
+      "dataMovimentacao": "2024-09-08"
+    },
+    {
+      "id": "40",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 900,
+      "dataMovimentacao": "2024-09-09"
+    },
+    {
+      "id": "41",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1100,
+      "dataMovimentacao": "2024-09-10"
+    },
+    {
+      "id": "42",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-09-11"
+    },
+    {
+      "id": "43",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1600,
+      "dataMovimentacao": "2024-09-12"
+    },
+    {
+      "id": "44",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 800,
+      "dataMovimentacao": "2024-09-13"
+    },
+    {
+      "id": "45",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1500,
+      "dataMovimentacao": "2024-09-14"
+    },
+    {
+      "id": "46",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 300,
+      "dataMovimentacao": "2024-09-15"
+    },
+    {
+      "id": "47",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1400,
+      "dataMovimentacao": "2024-09-16"
+    },
+    {
+      "id": "48",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-09-17"
+    },
+    {
+      "id": "49",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1300,
+      "dataMovimentacao": "2024-09-18"
+    },
+    {
+      "id": "50",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-09-19"
+    },
+    {
+      "id": "3660",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "5484",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 3333,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "2609",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 5000,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "9562",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "1714",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 10000,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "6459",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 400,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "6108",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1000,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "9823",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 321,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "3485",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 12,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "742",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 111,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "6709",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "7959",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 512312,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "5926",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 500000,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "6934",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "1304",
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 1,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "3691",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 1,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "9889",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 0.01,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "5516",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": "5189",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 5000,
+      "dataMovimentacao": "2024-08-27"
+    },
+    {
+      "id": 4138,
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-28"
+    },
+    {
+      "id": 1208,
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 11000,
+      "dataMovimentacao": "2024-08-28"
+    },
+    {
+      "id": 586,
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 2000,
+      "dataMovimentacao": "2024-08-28"
+    }
+  ]
+}
