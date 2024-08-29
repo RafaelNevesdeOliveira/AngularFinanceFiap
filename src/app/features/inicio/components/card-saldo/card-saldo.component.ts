@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { selectSaldoTotal } from '../../store/transacao.selectors';
 import { Store } from '@ngrx/store';
@@ -6,7 +6,8 @@ import { Store } from '@ngrx/store';
 @Component({
   selector: 'app-card-saldo',
   templateUrl: './card-saldo.component.html',
-  styleUrl: './card-saldo.component.scss'
+  styleUrl: './card-saldo.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CardSaldoComponent {
   saldo$: Observable<number>;

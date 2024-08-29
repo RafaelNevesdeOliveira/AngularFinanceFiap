@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TipoMovimentacao } from '../../enum/tipo-movimentacao.enum';
 import { Store } from '@ngrx/store';
@@ -9,7 +9,8 @@ import { adicionarTransacao } from '../../store/transacao.actions';
 @Component({
   selector: 'app-nova-transacao',
   templateUrl: './nova-transacao.component.html',
-  styleUrl: './nova-transacao.component.scss'
+  styleUrl: './nova-transacao.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class NovaTransacaoComponent {
   transacaoForm: FormGroup;
