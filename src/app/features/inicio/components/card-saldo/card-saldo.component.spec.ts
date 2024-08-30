@@ -36,6 +36,7 @@ fdescribe('CardSaldoComponent', () => {
 
     expect(dataElement.nativeElement.textContent.trim()).toBe(dataAtual)
   })
+  
 
   it('deve mostrar o saldo quando mostrarSaldo é verdadeiro', () => {
     component.mostrarSaldo = true
