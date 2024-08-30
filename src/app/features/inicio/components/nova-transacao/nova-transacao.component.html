@@ -5,19 +5,19 @@
     <div class="form-row">
       <mat-form-field class="form-field">
         <mat-label>Tipo de Movimentação</mat-label>
-        <mat-select id="tipoMovimentacao" formControlName="tipoMovimentacao">
-          <mat-option [value]="tipoMovimentacao.DEPOSITO">Depósito</mat-option>
-          <mat-option [value]="tipoMovimentacao.TRANSFERENCIA">Transferência</mat-option>
+        <mat-select id="tipoMovimentacao" formControlName="tipoMovimentacao" data-cy="select-tipo-movimentacao">
+          <mat-option [value]="tipoMovimentacao.DEPOSITO" data-cy="option-deposito">Depósito</mat-option>
+          <mat-option [value]="tipoMovimentacao.TRANSFERENCIA" data-cy="option-transferencia">Transferência</mat-option>
         </mat-select>
       </mat-form-field>
 
       <mat-form-field class="form-field">
         <mat-label>Valor</mat-label>
-        <input matInput id="valor" type="number" formControlName="valor">
+        <input matInput id="valor" type="number" formControlName="valor" data-cy="input-valor">
       </mat-form-field>
     </div>
 
-    <button mat-raised-button color="primary" type="submit" [disabled]="transacaoForm.invalid" class="submit-button">
+    <button mat-raised-button color="primary" type="submit" [disabled]="transacaoForm.invalid" class="submit-button" data-cy="button-submit">
       Concluir Transação
     </button>
   </form>

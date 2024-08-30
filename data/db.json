@@ -449,6 +449,24 @@
       "tipoMovimentacao": "TRANSFERENCIA",
       "valor": 500,
       "dataMovimentacao": "2024-08-29"
+    },
+    {
+      "id": 6449,
+      "tipoMovimentacao": "TRANSFERENCIA",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-29"
+    },
+    {
+      "id": 6498,
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 100,
+      "dataMovimentacao": "2024-08-29"
+    },
+    {
+      "id": 3604,
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 100,
+      "dataMovimentacao": "2024-08-29"
     }
   ]
 }
