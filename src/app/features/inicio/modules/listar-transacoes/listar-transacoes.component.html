@@ -1,0 +1,16 @@
+<div class="lista-transacoes">
+  <h3>Últimas Transações</h3>
+  <ul class="transacoes-lista">
+    <li *ngFor="let transacao of transacoes$ | async" class="transacao-item">
+      <mat-card class="transacao-card">
+        <div class="transacao-header">
+          <span class="tipo">{{ transacao.tipoMovimentacao }}</span>
+          <span class="data">{{ transacao.dataMovimentacao | date: 'dd/MM/yyyy' }}</span>
+        </div>
+        <div class="transacao-valor" [ngClass]="{'deposito': transacao.tipoMovimentacao === 'DEPOSITO', 'transferencia': transacao.tipoMovimentacao === 'TRANSFERENCIA'}">
+          {{ transacao.valor | currency: 'BRL' }}
+        </div>
+      </mat-card>
+    </li>
+  </ul>
+</div>

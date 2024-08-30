@@ -3,6 +3,11 @@ import { State } from "./transacao.reducer";
 
 export const selectTransacaoState = createFeatureSelector<State>('transacao');
 
+export const selectMovimentacoes = createSelector(
+  selectTransacaoState,
+  (state: State) => state.movimentacoes
+)
+
 export const selectSaldoTotal = createSelector(
   selectTransacaoState,
   (state: State) => {

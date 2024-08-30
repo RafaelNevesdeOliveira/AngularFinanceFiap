@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { MatListModule } from '@angular/material/list';
 import { InicioRoutingModule } from './inicio-routing.module';
 import { RouterModule } from '@angular/router';
-import { InicioComponent } from './inicio/inicio.component';
-import { CardSaldoModule } from './components/card-saldo/card-saldo.module';
+import { InicioComponent } from './page/inicio.component';
+import { CardSaldoModule } from './modules/card-saldo/card-saldo.module';
 import { transacaoReducer } from './store/transacao.reducer';
 import { StoreModule } from '@ngrx/store';
-import { NovaTransacaoModule } from './components/nova-transacao/nova-transacao.module';
+import { NovaTransacaoModule } from './modules/nova-transacao/nova-transacao.module';
+import { ListarTransacoesModule } from './modules/listar-transacoes/listar-transacoes.module';
 
 @NgModule({
   declarations: [InicioComponent],
@@ -20,7 +21,8 @@ import { NovaTransacaoModule } from './components/nova-transacao/nova-transacao.
     StoreModule.forRoot({
       transacao: transacaoReducer
     }),
-    NovaTransacaoModule
+    NovaTransacaoModule,
+    ListarTransacoesModule
   ]
 })
 export class InicioModule { }
