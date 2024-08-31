@@ -469,21 +469,33 @@
       "dataMovimentacao": "2024-08-29"
     },
     {
-      "id": 8486,
+      "id": "8486",
       "tipoMovimentacao": "DEPOSITO",
       "valor": 400,
       "dataMovimentacao": "2024-08-30"
     },
     {
-      "id": 771,
+      "id": "771",
       "tipoMovimentacao": "TRANSFERENCIA",
       "valor": 30000,
       "dataMovimentacao": "2024-08-30"
     },
     {
-      "id": 7984,
+      "id": "7984",
       "tipoMovimentacao": "DEPOSITO",
       "valor": 1,
+      "dataMovimentacao": "2024-08-30"
+    },
+    {
+      "id": "9326",
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 500,
+      "dataMovimentacao": "2024-08-30"
+    },
+    {
+      "id": 6499,
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 5000,
       "dataMovimentacao": "2024-08-30"
     }
   ]
