@@ -1,27 +1,62 @@
-# AngularFinanceFiap
+# Projeto Angular com Angular Material, NgRx e JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Este projeto utiliza Angular Material para estilização, NgRx para gerenciamento de estado e JSON Server para simulação de uma API REST.
 
-## Development server
+## Passo a Passo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Instale o Angular Material**:
+```bash
+   ng add @angular/material
+```
 
-## Code scaffolding
+2. **Instale o Angular Material**:
+```bash
+ng add @ngrx/store
+ng add @ngrx/effects
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Configuração do JSON Server: Adicione o seguinte script ao seu package.json para iniciar o JSON Server**:
 
-## Build
+```json
+"start:json-server": "json-server --watch ./data/db.json --port 3001"
+```
+- Crie o arquivo db.json na pasta data para armazenar os dados simulados da API.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+4. **Configuração do Ambiente de Desenvolvimento: Crie os arquivos de ambiente para separar as configurações de produção e desenvolvimento**:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- src/environments/environment.ts
 
-## Running end-to-end tests
+- src/environments/environment.prod.ts
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Adapte o angular.json para incluir as configurações de ambiente de desenvolvimento:
+```json
+"development": {
+  "optimization": false,
+  "extractLicenses": false,
+  "sourceMap": true,
+  "fileReplacements": [
+    {
+      "replace": "src/environments/environment.prod.ts",
+      "with": "src/environments/environment.ts"
+    }
+  ]
+}
+```
 
-## Further help
+5. **Geração dos Módulos e Componentes: Gere os módulos e componentes necessários para o projeto:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng g m features/inicio/components/card-saldo
+ng g c features/inicio/components/card-saldo
+ng g m features/inicio/components/nova-transacao
+ng g c features/inicio/components/nova-transacao
+```
+
+6. **Iniciando o Projeto: Inicie o JSON Server:**
+
+```bash
+npm run start:json-server
+ng serve --open
+
+```
